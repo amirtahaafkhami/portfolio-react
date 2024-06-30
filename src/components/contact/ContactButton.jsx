@@ -11,7 +11,7 @@ function ContactButton(props) {
   }
   return (
     <a href={props.hrefText}>
-      <svg className="w-20 h-20 cursor-pointer hover:h-28 hover:w-28 transition-all duration-500" onClick={copyText()}>
+      <svg className={"w-20 h-20 cursor-pointer hover:h-28 hover:w-28 transition-all duration-500" + " " + (props.iconName !== "phone" ? "" : "w-16 h-16 hover:h-24 hover:w-24")} onClick={copyText()}>
         <use href={"#" + props.iconName}></use>
       </svg>
     </a>

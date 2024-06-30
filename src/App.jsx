@@ -31,7 +31,7 @@ function App() {
     <>
       <Sprite />
       <Header />
-      <main className="relative w-[calc(100vw-8rem)] h-[100vh] ml-36">
+      <main className="relative md:w-[calc(100vw-8rem)] w-full h-[100vh] md:ml-36">
         <About />
         <Skills />
         <Achivements />
