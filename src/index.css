@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Gilroy Black";
+    src: url("./assets/fonts/Gilroy-Black.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gilroy Bold";
+    src: url("../src/assets/fonts/Gilroy-Bold.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gilroy ExtraBold";
+    src: url("../src/assets/fonts/Gilroy-ExtraBold.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gilroy Heavy";
+    src: url("../src/assets/fonts/Gilroy-Heavy.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gilroy Light";
+    src: url("../src/assets/fonts/Gilroy-Light.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gilroy Medium";
+    src: url("../src/assets/fonts/Gilroy-Medium.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../src/assets/fonts/Gilroy-Regular.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gilroy SemiBold";
+    src: url("../src/assets/fonts/Gilroy-SemiBold.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gilroy Thin";
+    src: url("../src/assets/fonts/Gilroy-Thin.otf");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gilroy UltraLight";
+    src: url("../src/assets/fonts/Gilroy-UltraLight.otf");
+    font-display: swap;
+  }
+
+  html {
+    color: white;
+    background-image: url("../src/assets/images/background.png");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  #header-text-container span {
+    /* @apply text-justify after:content-none after:inline-block after:w-full font-GilroyLight text-[20pt]; */
+    @apply font-GilroyLight text-[40pt]
+  }
+  #single-achivement {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+    background-image: linear-gradient(#f8fafc00 , #f8fafc23 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  * {
+    user-select: none;
+  }
+}
