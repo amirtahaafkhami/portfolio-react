@@ -22,7 +22,7 @@ function Header() {
       </div>
       <div id="banner" className="h-full w-[100vw] flex flex-col justify-center items-center lg:pl-16">
         <div id="header-text-container" className="text-center lg:left-8 relative">
-          <h1 className="font-GilroyBlack text-[45pt] md:text-[70pt]">I am Amirtaha Afkhami.</h1>
+          <h1 className="font-GilroyBlack text-[45pt] xl:text-[70pt]">I am Amirtaha Afkhami.</h1>
           <TypeAnimation sequence={["I am a Web Developer.", 1000, "I am a programming teacher.", 1000, "I am an AI team manager.", 1000]} repeat={Infinity} />
         </div>
       </div>

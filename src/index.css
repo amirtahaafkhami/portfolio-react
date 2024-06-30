@@ -65,7 +65,7 @@
   }
   #header-text-container span {
     /* @apply text-justify after:content-none after:inline-block after:w-full font-GilroyLight text-[20pt]; */
-    @apply font-GilroyLight md:text-[40pt] text-[30pt]
+    @apply font-GilroyLight xl:text-[40pt] text-[30pt]
   }
   #single-achivement {
     clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
