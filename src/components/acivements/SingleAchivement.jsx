@@ -1,6 +1,6 @@
 function SingleAchivement(props) {
   return (
-    <div className="flex flex-col items-center flex-wrap relative md:-ml-12">
+    <div className="flex flex-col items-center flex-wrap relative lg:-ml-12">
       <div id="single-achivement" className="flex flex-col items-center justify-center md:w-[500px] w-[250px] md:h-[250px] h-[125px] slate border-b-4">
         <h1 className="font-GilroyBold md:text-[40pt] text-[25pt] text-slate-50/30">{props.competition}</h1>
         <h1 className={"font-GilroyLight md:text-[30pt] text-[15pt]" + " " + props.colorName}>

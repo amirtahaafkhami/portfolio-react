@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="about-tab" className="w-full h-[100vh] flex items-center justify-center relative md:left-6">
+    <section id="about-tab" className="w-full h-[100vh] flex items-center justify-center relative lg:left-6">
       <div className="w-[75%] min-h-[50%] overflow-y-hidden">
         <h1 className="md:w-64 w-52 font-GilroyExtraBold md:text-[60pt] text-[40pt] float-left clear-both">
           W h o <br /> am I ?
